@@ -6,6 +6,7 @@ export interface Allocation {
 export interface Alert {
     title: string;
     description: string;
+    read: boolean;
 }
 
 export interface HttpRequest {
